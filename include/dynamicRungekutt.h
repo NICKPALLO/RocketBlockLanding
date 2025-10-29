@@ -2,9 +2,7 @@
 #include <QVector>
 #include "matrix.h"
 #include "aerodynamic.h"
-#ifndef PI
-#define PI 3.14159265
-#endif
+#include "constants.h"
 
 struct ConstData
 {

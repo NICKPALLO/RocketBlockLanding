@@ -7,7 +7,7 @@
 //но не добавлять его в проект.
 #include "qcustomplot.h"
 
-#define FIRST_GRAPH 0
+inline constexpr int FIRST_GRAPH = 0;
 
 class Graphic : public QObject
 {

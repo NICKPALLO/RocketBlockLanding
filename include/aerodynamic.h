@@ -1,9 +1,6 @@
 #pragma once
 #include "matrix.h"
-#ifndef Rz
-#define Rz 6371100 // метров
-#endif
-
+#include "constants.h"
 
 double getLineValue(double y1, double y2, double x1, double x2, double x);
 double get_Mah(double& H, double& V);

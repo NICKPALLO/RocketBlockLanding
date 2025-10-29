@@ -4,19 +4,7 @@
 #include "rungekutt.h"
 #include <QObject>
 #include <QVector>
-
-
-#ifndef OMEGA
-#define OMEGA 0.0000727 // рад/с
-#endif
-
-#ifndef Rz
-#define Rz 6371100 // метров
-#endif
-
-#ifndef AmountPulses
-#define AmountPulses 3
-#endif
+#include "constants.h"
 
 #ifndef convertToMeters
 #define convertToMeters *=1000
@@ -29,6 +17,7 @@
 #ifndef convertToNewtons
 #define convertToNewtons *=-1000
 #endif
+
 
 class LandingCalc : public QObject
 {

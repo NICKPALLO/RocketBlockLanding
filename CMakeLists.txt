@@ -30,8 +30,7 @@ set(PROJECT_SOURCES
         src/dynamiccalc.cpp include/dynamiccalc.h
         src/aerodynamic.cpp include/aerodynamic.h
 )
-#set(app_icon_resource_windows "${CMAKE_CURRENT_SOURCE_DIR}/resources/res.rc")
-   # qt_add_executable(photosurfaceexample main.cpp ${app_icon_resource_windows})
+
 qt_add_executable(DiplomSU
        MANUAL_FINALIZATION
        ${PROJECT_SOURCES}
